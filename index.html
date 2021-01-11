@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>sliceofheaven</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!--Custom css file -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<!--Navigation bar //-->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+    <div class="navi">
+        <ul class="nav-items">
+            <li><a href="#about">About</a></li>
+            <li><a href="#menus">Menu</a></li>
+            <li><a href="#order">Orders</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+        </ul>
+    </div>
+</nav>
+<!--Landing page-->
+<div class="landing">
+    <div class="overlay">
+        <div id="push"></div>
+        <div class="landing-text">
+            <h1 class="text-white text-center"><span class="pizz">SLICE OF </span><span class="exc">HEAVEN!</span></h1>
+            <h2 class="text-white text-center">People dissappoint, pizza never dissappoint.</h2>
+        </div>
+        <div class="h-buttons text-center">
+            <a href="#welcome">
+
+                <img src="images/mouse_click.png">
+            </a>
+            <div class="socials">
+                <a href=""><span class="fab fa-facebook icon_facebook"></span></a>
+                <a href=""><span class="fab fa-twitter icon_twitter"></span></a>
+                <a href=""><span class="fab fa-google-plus icon_googlep"></span></a>
+                <a href=""><span class="fab fa-linkedin icon_linkedin"></span></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About us -->
+<h1 style="text-align: center;" id="about">About</h1>
+<div class="container">
+    <div class="about">
+    </div>
+
+<!--Welcome Section-->
+
+<div class="welcome" id="welcome">
+    <div class="col-sm-12">
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="images/cheese.jpg" alt="chef-cartoon" class="karibu-img">
+            </div>
+            <div class="col-md-6 karibu-txt">
+                <h1 class="text-center txt txt-big">WELCOME!!! <span class="pizz">HEAVENLY </span><span class="exc">DELICIOUS SLICE!</span>
+                </h1>
+                <p class="text-center txt">A Slice of Heaven box might be one of the most recognisable icons in Kenya. <br> Whichever way you slice it, Slice of Heaven is an industry leader in the quick service pizza game. <br> The first Slice of Heaven outlet opened its doors in 2007 in Nairobi, and rose quickly in popularity. <br> Serving hot oven-fresh pizza with its signature all-natural tomato sauce and using only the freshest ingredients, Slice of Heaven has established itself at the top of the industry and is easily one of the first choices in quick service pizza in Kenya.
+                </p>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!--Sizes-->
+<div id="menus"></div>
+<br>
+<div class="menu col-md-12">
+    <div class="menu-overlay">
+        <h1 class="text-center text-white" id="menu">Menu</h1>
+        <div class="pizza-menu row text-center">
+            <figure class="col-sm-4">
+                <img src="images/small.jpg" alt="small-pizza" class="wiggle">
+                <figcaption class="text-white">Small<br>Ksh. 450</figcaption>
+            </figure>
+            <figure class="col-sm-4">
+                <img src="images/medium.jpg" alt="medium-pizza" class="wiggle">
+                <figcaption class="text-white">Medium<br>Ksh. 800</figcaption>
+            </figure>
+            <figure class="col-sm-4">
+                <img src="images/large.jpg" alt="large-pizza" class="wiggle">
+                <figcaption class="text-white">Large<br>Ksh. 1100</figcaption>
+            </figure>
+        </div>
+    </div>
+</div>
+ <!-- order pizza -->
+ <div class="container-fluid order" id="make-order">
+    <div class="order-overlay">
+      <div class="controls-top text-center" id="Order-now">
+        <h2 id="order">Order Here</h2>
+      </div>
+      <h2>Order your pizza here and we will deliver it to you at your door step!</h2>
+      <div class="row">
+          <div class="col-sm-5">
+            <form action="">
+                <label for="select">Select Your Flavor</label>
+                <select class="browser-default custom-select custom-select-md mb-3 name">
+                  <!-- <option selected value="choose">Choose your flavor</option> -->
+                  <option value="Chicken Tikka">Chicken Tikka</option>
+                  <option value="PeriPeri Pizza">PeriPeri Pizza</option>
+                  <option value="Raspberry Dessert Pizza">Raspberry Dessert Pizza</option>
+                  <option value="Chicken Alfredo Pizza">Chicken Alfredo Pizza</option>
+                  <option value="Sunchoke Pizza">Sunchoke Pizza</option>
+                  <option value="Buffalo Chicken Sticks">Buffalo Chicken Sticks</option>
+                </select>
+              <label for="select">Select Size</label>
+              <select class="browser-default custom-select custom-select-md mb-3" id="size">
+                <option selected="" value="0">Select size here</option>
+                <option value="large">Large -- sh. 1200</option>
+                <option value="medium">Medium -- sh. 850</option>
+                <option value="small">Small -- sh. 600</option>
+              </select>
+              <label for="crust">Choose your favorite Crust!</label>
+                <select class="browser-default custom-select custom-select-md mb-3" id="crust">
+                    <option selected="" value="0">Select your preferred crust!</option>
+                  <option value="Crispy">Crispy -- sh. 200</option>
+                  <option value="Stuffed">Stuffed -- sh. 150</option>
+                  <option value="Gluten-free">Gluten-free-- sh. 180</option>
+                </select>
+              <label for="Toppings">Select Your Toppings at sh. 50 each</label><br>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="Sausage" value="Sausage" name="toppings">
+                  <label class="custom-control-label" for="Sausage">Sausage</label>
+                </div>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="Bacon" value="Bacon" name="toppings">
+                  <label class="custom-control-label" for="Bacon">Bacon</label>
+                </div>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="Mushrooms" value="Mushrooms" name="toppings">
+                  <label class="custom-control-label" for="Mushrooms">Mushrooms</label>
+                </div>
+                <br><br>
+              <button type="submit" class="btn btn-orange proceed">Proceed</button>
+
+            </form>
+          </div>
+          <div class="col-sm-7">
+            <div id="information">
+              <p>Your order will be processed and delivered within an hour of placing.</p>
+              <p>Make sure you have the total amount with you during pick up.</p>
+              <p>Forwad comments, obseravtion and /or complains to us.</p>
+              <p id="regards">Regards, Management</p>
+            </div>
+            <div class="choise">
+              <h2>Your Order is:</h2>
+              <div id="your-orders">
+                <table class="table table-sm  pizzatable">
+                  <thead>
+                    <tr>
+                      <th scope="col">Name</th>
+                      <th scope="col">Size</th>
+                      <th scope="col">Crust</th>
+                      <th scope="col">Topping</th>
+                      <th scope="col">Total</th>
+                    </tr>
+                  </thead>
+                  <tbody id="ordersmade" style="color:aqua;">
+                    <tr>
+                      <td id="pizzaname"></td>
+                      <td id="pizzasize"></td>
+                      <td id="pizzacrust"></td>
+                      <td id="pizzatopping"></td>
+                      <td id="totals"></td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p id="pizzatotal"></p>
+                <p id="totalbill"></p>
+                <p id="addedprice">Delivery will cost sh. 150</p>
+                <p id="finallmessage"></p>
+              </div>
+              <button style="color:chocolate;"class="btn btn-orange addPizza">Add Pizza</button>
+              <button style="color:darkgreen;"class="btn btn-orange" id="checkout">Checkout</button>
+              <button class="btn btn-orange deliver">Home delivery?</button>
+            </div>
+            <div class="delivery">
+                <form action="">
+                  <div class="form-group">
+                    <input type="text" id="name" class="form-control mb-3" placeholder="Name">
+                    <input type="number" id="phone" class="form-control mb-3" placeholder="Pnone Number">
+                    <input type="text" id="location" class="form-control mb-3" placeholder="Location for delivery">
+                    <button style="color:orangered;"class="btn btn-orange" id="final-order">Place Order</button>
+                  </div>
+                </form>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/mdb.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+<footer>
+    <div class="container-fluid bg-default" id="contact">
+        <div class="controls-top ">
+            <h2 id="contacts">Contact Us</h2>
+          </div>
+        <div class="row" id="contactdetails">
+          <div class="col-md-1">
+
+          </div>
+          <div class="col-md-3 text-justify">
+            <h2>Location</h2>
+            <p>The Dawn Plaza</p>
+            <p>24 | Mathare North</p>
+          </div>
+          <div class="col-md-3">
+            <h2>Customer Care</h2>
+             <p>info@sliceofheaven.org</p>
+             <p>Tell: 0521115621</p>
+             <p>Phone: +254715399590</p>
+          </div>
+          <div class="col-md-4">
+            <div class="mapouter">
+          <h2>Offices</h2>
+          <p>Nairobi-  0706739285 / 0715399590</p>
+          <p>Mombasa-  0713589278 / 0791903555</p>
+          <p>Kisumu -  0725677530 / 0725677531</p>
+          <p>Nakuru  - 0725931630 / 0700620001</p>
+            </div>
+        </div>
+          <div class="col-md-1"></div>
+        </div>
+        <div class="row">
+          <div class="container text-center footer">
+            <p>&copy;2020 Slice of Heaven</p>
+          </div>
+        </div>
+    </div>
+</footer>
+<script src="js/jquery.js"></script>
+<script src="js/script.js"></script>
+<script src="js/scrollify.js"></script>
+</html>
